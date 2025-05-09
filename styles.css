@@ -111,3 +111,11 @@ input {
     background-color: hsl(169, 82%, 27%);
     color: hsl(0, 0%, 100%);
 }
+
+@media (max-width: 990px) {
+    .radio-container,
+    .name-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
